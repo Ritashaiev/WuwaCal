@@ -20,19 +20,19 @@ float weight = 0.0f;
 pair<float, float> CritalRate(0.0f, 10.0f);
 map<string, pair<float, float>> attributetable = {
     // Attribute type - Band - weight
-    {"CD", {0.0f, 8.0f}},   //爆伤
-    {"CR", CritalRate},     //暴击
-    {"ES", {0.0f, 5.0f}},   //E技能
-    {"HA", {0.0f, 5.0f}},   //重击
-    {"LA", {0.0f, 5.0f}},   //普攻
-    {"MA", {0.0f, 6.0f}},   //大攻击
-    {"MD", {0.0f, 0.0f}},   //大防御
-    {"ML", {0.0f, 0.0f}},   //大生命
-    {"QS", {0.0f, 5.0f}},   //Q技能
-    {"RC", {0.0f, 5.0f}},   //充能
-    {"SA", {0.0f, 3.0f}},   //小攻击
-    {"SD", {0.0f, 0.0f}},   //小防御
-    {"SL", {0.0f, 0.0f}},   //小生命
+    {"CD", {0.0f, 8.0f}},   //Critical DMG
+    {"CR", CritalRate},     //Cri Rate
+    {"ES", {0.0f, 5.0f}},   //E skill
+    {"HA", {0.0f, 5.0f}},   //Hard Att
+    {"LA", {0.0f, 5.0f}},   //Light Att
+    {"MA", {0.0f, 6.0f}},   //Major Att
+    {"MD", {0.0f, 0.0f}},   //Major Def
+    {"ML", {0.0f, 0.0f}},   //Maj Hp
+    {"QS", {0.0f, 5.0f}},   //Q Skill
+    {"RC", {0.0f, 5.0f}},   //Recgarge
+    {"SA", {0.0f, 3.0f}},   //att
+    {"SD", {0.0f, 0.0f}},   //def
+    {"SL", {0.0f, 0.0f}},   //hp
        
 };
 
